@@ -1,0 +1,83 @@
+.offers-page{
+    margin-top:20px;
+}
+
+/* HERO */
+.offer-hero{
+    height:300px;
+    background:url("https://images.unsplash.com/photo-1513885535751-8b9238bd345a?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+    height:528px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero-overlay{
+    background:rgba(0,0,0,0.5);
+    padding:20px 30px;
+    color:white;
+    text-align:center;
+    border-radius:10px;
+}
+
+.hero-overlay h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+/* ICON */
+.offer-icon{
+    font-size:28px;
+    margin-bottom:5px;
+}
+
+/* CARD (same structure as your page) */
+.food-card{
+    background:white;
+    padding:8px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 6px rgba(0,0,0,0.1);
+    width:85%;
+    margin:0 auto;
+    font-family:Arial;
+}
+
+/* TEXT */
+.food-card h3{
+    font-size:16px;
+    margin:6px 0;
+}
+
+.food-card p{
+    margin:3px 0;
+    font-size:14px;
+}
+
+/* PRICE */
+del{
+    color:gray;
+}
+
+/* BUTTON */
+.order-btn{
+    background:#b8860b;
+    color:white;
+    border:none;
+    padding:6px 14px;
+    border-radius:5px;
+    margin-top:8px;
+    cursor:pointer;
+}
+
+.order-btn:hover{
+    background:#a07409;
+}
+
+/* SECTION TITLE */
+.section-title{
+    text-align:center;
+    margin:30px 0;
+    color:#8b0029;
+}

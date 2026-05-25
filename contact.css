@@ -1,0 +1,80 @@
+.contact-section{
+    padding:70px 0;
+    background:#f7f0e8;
+}
+
+.contact-title{
+    text-align:center;
+    font-size:35px;
+    margin-bottom:50px;
+    color:#8b0029;
+    font-family:Arial;
+    letter-spacing:1px;
+}
+
+/* FORM */
+
+.contact-form{
+    max-width:700px;
+    margin:0 auto;
+}
+
+.custom-input{
+    height:55px;
+    border:1px solid #999;
+    border-radius:0;
+    font-size:18px;
+    padding-left:20px;
+    font-family:Arial;
+    letter-spacing:1px;
+}
+
+.custom-textarea{
+    height:180px;
+    border:2px solid black;
+    border-radius:0;
+    resize:none;
+    padding:15px 20px;
+    font-family:Arial;
+    font-size:18px;
+    letter-spacing:1px;
+}
+
+.send-btn{
+    background:black;
+    color:white;
+    border:none;
+    padding:11px 50px;
+    border-radius:10px;
+    font-size:18px;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+
+/* CONTACT INFO */
+
+.contact-info{
+    text-align:center;
+    margin-top:90px;
+}
+
+.contact-info h2{
+    font-size:35px;
+    margin-bottom:35px;
+    font-family:Arial;
+    letter-spacing:1px;
+}
+
+.contact-info p{
+    font-size:18px;
+    color:#444;
+    line-height:2;
+    letter-spacing:1px;
+    font-family:Arial;
+}
+
+.contact-info span{
+    text-decoration:underline;
+}
+
+
