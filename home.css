@@ -10,7 +10,8 @@ body{
     color:white;
     text-align:center;
     padding:10px;
-    font-size: 22px !important;
+    font-size: 26px !important;
+    letter-spacing:1px !important;
 }
 
 .custom-nav{
@@ -44,6 +45,11 @@ body{
     margin:0 10px;
 }
 
+.navbar-nav{
+    position:relative;
+    left:-36px;
+}
+
 .top-bar,
 .nav-link{
     letter-spacing:1px;
@@ -56,7 +62,7 @@ body{
 }
 
 .slider-img{
-    height:500px;
+    height:540px;
     object-fit:cover;
     filter:brightness(50%);
 }
@@ -79,6 +85,7 @@ body{
     background:#8b0029;
     color:white;
     padding:60px 0;
+    letter-spacing:1px;
 }
 
 .footer-logo{
@@ -182,3 +189,122 @@ body{
     display:block;
     margin:15px auto 0;
 }
+
+/* ================= HOME EXTRA SECTIONS ================= */
+
+
+.home-section{
+    padding:50px 0;
+    background:#f7f0e8;
+    margin-bottom:0;
+}
+
+.home-title{
+    text-align:center;
+    color:#8b0029;
+    font-size:33px;
+    font-family:Arial;
+    letter-spacing:1px;
+    margin-bottom:25px;
+}
+
+.home-para{
+    max-width:900px;
+    margin:0 auto 20px;
+    text-align:justify;
+    font-size:18px;
+    line-height:1.9;
+    letter-spacing:1px;
+    color:#444;
+    font-family:Arial;
+}
+
+/* WHY CHOOSE US */
+
+.why-section{
+    padding:50px 0;
+    background:#f7f0e8;
+    margin-bottom:0;
+}
+
+.why-box{
+    background:white;
+    color:black;
+    padding:13px;
+    border-radius:12px;
+    text-align:center;
+    margin-top:0;
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow:0 0 6px rgba(0,0,0,0.1);
+}
+
+.why-box h4{
+    color:black;
+    font-size:17px;
+    letter-spacing:1px;
+    font-family:Arial;
+}
+
+/* SAME CARD STYLE AS OTHER PAGES */
+
+.food-card{
+    background:white;
+    padding:8px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 6px rgba(0,0,0,0.1);
+    width:85%;
+    margin:0 auto;
+    font-family:Arial;
+    letter-spacing:1px;
+}
+
+.food-card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.food-card h3{
+    font-size:15px;
+    margin-top:8px;
+}
+
+.food-card p{
+    font-size:14px;
+    margin:4px 0;
+}
+
+.order-btn{
+    background:#b8860b;
+    color:white;
+    border:none;
+    padding:6px 12px;
+    border-radius:5px;
+}
+
+.footer-tagline{
+    font-size:14px;
+    margin-top:8px;
+    color:#f1f1f1;
+}
+
+.footer-social{
+    margin-top:12px;
+    display:flex;
+    gap:12px;
+}
+
+.footer-social a{
+    color:white;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.footer-social a:hover{
+    color:#f4c27a;
+}
+

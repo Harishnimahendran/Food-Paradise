@@ -1,5 +1,5 @@
 .contact-section{
-    padding:70px 0;
+    padding:35px 0;
     background:#f7f0e8;
 }
 
@@ -15,7 +15,7 @@
 /* FORM */
 
 .contact-form{
-    max-width:700px;
+    max-width:600px;
     margin:0 auto;
 }
 
@@ -55,12 +55,12 @@
 
 .contact-info{
     text-align:center;
-    margin-top:90px;
+    margin-top:50px;
 }
 
 .contact-info h2{
     font-size:35px;
-    margin-bottom:35px;
+    margin-bottom:20px;
     font-family:Arial;
     letter-spacing:1px;
 }
@@ -75,6 +75,39 @@
 
 .contact-info span{
     text-decoration:underline;
+}
+
+.contact-hero{
+    background:url("https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1600&auto=format&fit=crop") center/cover no-repeat;
+    height:540px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:0px;
+}
+
+.hero-overlay{
+    background:rgba(0,0,0,0.5);
+    padding:40px 70px;
+    border-radius:50px;
+}
+
+.hero-content{
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-family:Arial;
+    font-size:30px;
+    letter-spacing:1px;
+}
+
+.hero-content p{
+    font-family:Arial;
+    font-size:18px;
+    line-height:1.6;
+    letter-spacing:1px;
 }
 
 
